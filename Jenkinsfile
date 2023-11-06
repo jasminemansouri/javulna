@@ -1,7 +1,7 @@
 pipeline { // Defines a pipeline
   agent any // Specifies that the pipeline can be run on any available agent
 
-  tools { // Configures the tools used in the pipeline
+  tools { // Configure the tools used in the pipeline
     maven 'maven' // Specifies the Maven tool that should be used in the pipeline
   }
 
